@@ -491,10 +491,10 @@ respond.mediaQueriesSupported：如果浏览器原生支持media queries时，�
 
 ### 三、必须知道的一些注意事项
 1. Selectivizr自动检测最佳的JavaScript库，如果你一个JavaScript库都没有调用，则IE下的伪类是不起作用的。
-2. 样式属性必须使用`<link>`标签，但是你可以使用@import在你的样式表里面，以<style>标签定义的CSS样式是不会被解析的。
+2. 样式属性必须使用`<link>`标签，但是你可以使用@import在你的样式表里面，以`<style>`标签定义的CSS样式是不会被解析的。
 3. 由于安全原因，样式文件需以域的形式调用，像是file:是不起作用的。
 4. 此效果非动态的。一旦样式被应用就被固定了，DOM改变时不会映射过去的。
-5. 如果JavaScript不可以，你可以使用<noscript>标签调用一个用以反馈提示的样式文件。
+5. 如果JavaScript不可以，你可以使用`<noscript>`标签调用一个用以反馈提示的样式文件。
 6. Selectivizr要想在IE下起作用，需要时标准模式，请检查您的页面头部是否有DTD 。
 
 ### 参考网址:

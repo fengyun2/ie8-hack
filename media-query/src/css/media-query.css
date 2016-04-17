@@ -1,0 +1,21 @@
+/*
+* @Author: baby
+* @Date:   2016-04-15 14:07:14
+* @Last Modified by:   baby
+* @Last Modified time: 2016-04-15 15:54:53
+*/
+
+#test {
+  background-color: #eee;
+}
+
+@media screen and (max-width: 960px){
+  #test {
+    background-color: #0f0;
+  }
+}
+@media screen and (max-width: 480px) {
+  #test {
+    background-color: #f00;
+  }
+}

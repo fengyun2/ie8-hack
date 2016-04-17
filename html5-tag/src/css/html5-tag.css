@@ -1,0 +1,17 @@
+/*
+* @Author: baby
+* @Date:   2016-04-15 14:07:14
+* @Last Modified by:   baby
+* @Last Modified time: 2016-04-15 16:36:11
+*/
+
+body {
+  text-align: center;
+}
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+
+
+article,aside,dialog,footer,header,section,footer,nav,figure,menu {
+  border-bottom: 1px solid #eee;
+}
